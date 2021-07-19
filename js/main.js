@@ -13,11 +13,11 @@ for (var i = 0; i < numbers; ++i) {
     { 
         console.log("FizzBuzz");
     } 
-    else if (((y % 3) == 0) && ((y % 5) !== 0))
+    else if (((y % 3) == 0))
     { 
         console.log("Fizz");
     } 
-    else if (((y % 5) == 0) && ((y % 3) !== 0))
+    else if (((y % 5) == 0))
     {
         console.log("Buzz");
     }
